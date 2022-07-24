@@ -1,0 +1,4 @@
+mis primeros pasos en git
+aprendiendo nuevos comandos en git
+modificando texto en readme
+
