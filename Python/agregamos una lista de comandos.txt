@@ -1,0 +1,7 @@
+mi primer commit con git en python
+mi primera linea de git en python
+agrego una linea a mi archivo en python
+aprendiendo nuevos comandos en git
+agregue nuevas lineas al trabajo
+actualizamos documentacion a nuestro archivo
+agregamos una lista de comandos
