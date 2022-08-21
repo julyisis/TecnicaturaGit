@@ -1,0 +1,4 @@
+listado de requisitos
+
+llamada alos clientes
+cambiar todo el sitio a color oscuro
