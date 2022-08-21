@@ -44,11 +44,21 @@ else:
         print("FIN del ciclo for" )
 """
 # PALABRA RESERVADA CONTINUE
-for i in range(6):
+"""for i in range(6):
     if i % 2 == 0:
         print(f'valor: {i}') # ejercicio de abajo cambiamos la logica para utilizar continue y ver los mismos resultados
 
 for i in range(6):
     if i % 2 != 0:
         continue
-    print(f"valor: {i}")
+    print(f"valor: {i}")"""
+num = 0
+i = 1
+factorial = 1
+while num <= num:
+    num = int(input("Ingrese un numero valido: "))
+while i <= num:
+    factorial *= num
+    num -= 1
+else:
+    print(f"El factorial es: {factorial}")
