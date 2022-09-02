@@ -1,0 +1,10 @@
+# DADAS LAS SIGUIENTE TUPLA
+tupla = (13, 1, 8, 3, 2,5 ,8)# DEFINIMOS LA TUPLA
+# CREAR UNA LISTA QUE SOLO INCLUYA LOS NUMEROS MENORES A 5 E IMPRIMA POR CONSOLA [1,3,2]
+
+lista = [] # DEFINIMOS FILA LISTA
+# FILTRAMOS LOS ELEMENTOS MENORES  5 DE LA TUPLA
+for elemento in tupla:
+    if elemento < 5:
+        lista.append(elemento)
+print(lista)
