@@ -4,8 +4,8 @@ public class EjercicioWhile01 {
 
     public static void main(String[] args) {
         var conteo = 0; //INFERENCIA DE TIPO
-        while (conteo < 3) { //Primero esta la condicion si no se cumple jamas se accede al codigo adentro del ciclo
-            System.out.println("conteo = " + conteo);//el ciclo while y do while maneja un ciclo INDEREMINADO DE ITERACIONES
+        while (conteo < 3) { //Primero esta la condicion si no se cumple jamas se accede al codigo dentro del ciclo
+            System.out.println("conteo = " + conteo);//el ciclo while y do while maneja un ciclo INDETERMINADO DE ITERACIONES
             conteo++; //VAMOS AUMENTANDO EN UNO LA VARIABLE 
         }
         var contador = 0;
