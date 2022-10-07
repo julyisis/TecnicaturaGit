@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f44e9cc9-ae9f-42d1-b346-9ecc4a12af06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Ejercicio01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EjercicioColecciones3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/Leccion5/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EjercicioColecciones1.py" beforeDir="false" afterPath="$PROJECT_DIR$/EjercicioColecciones1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EjercicioColecciones2.py" beforeDir="false" afterPath="$PROJECT_DIR$/EjercicioColecciones2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EjercicioTuplasLstas.py" beforeDir="false" afterPath="$PROJECT_DIR$/EjercicioTuplasLstas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,35 +34,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/TecnicaturaGit/Python/LECCION4&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Usuario/TecnicaturaGit/Python/LECCION4"
   }
-}</component>
-  <component name="RunManager" selected="Python.Ejercicio05">
-    <configuration name="Ejercicio01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="LECCION4" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ejercicio01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Python.main">
     <configuration name="Ejercicio02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LECCION4" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,6 +126,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Ejercicio06" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LECCION4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ejercicio06.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="LECCION4" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Ejercicio06" />
         <item itemvalue="Python.Ejercicio05" />
         <item itemvalue="Python.Ejercicio04" />
         <item itemvalue="Python.Ejercicio03" />
         <item itemvalue="Python.Ejercicio02" />
-        <item itemvalue="Python.Ejercicio01" />
       </list>
     </recent_temporary>
   </component>

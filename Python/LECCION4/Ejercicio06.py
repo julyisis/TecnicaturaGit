@@ -1,0 +1,16 @@
+# EJERCICIO 6: TABLA DE MULTIPLICAR
+# HACER UN PROGRAMA QUE PIDA UN NUMERO POR TECLADO Y GUARDE
+# EN UNA LISTA SU TEBLA DE MULTIPLICAR HASTA EL 10.POR EJEMPLO:
+# SI DIJITA EL 5 LA LISTA TENDRA : 5, 10,15,20,25,30,35,40,45,50
+
+numero = int(input('Digite un numero: '))  # AQUI VAMOS A PEDIR EL NUMERO DE TIPO ENTERO, AQUI EL USUARIO ESTA DIGITANDO UN NUMERO Y SE ESTA GUARDANDO EN LA VARIABLE NUMERO
+lista = []  # VAMOS A CREAR UNA LISTA VACIA
+for i in range(1,11): # VAMOS A UTILIZAR UN CICLO FOR Y UN RANGE,EL RANGO QUE ESTAMOS MANEJANDO ES DE DESDE 1 A 11, PORQUE NECESITAMOS QUE LLEGUE A  10, RESPETANDO LA IDENTACION VAMOS A LLENAR LA LISTA
+    lista.append(i*numero)   # VAMOS A UTILIZAR LA FUNCION append()y lo que guardamos es la multiplicacion del i * por numero
+print(f'\nTabla de multiplicar del {numero}: \n {lista}')
+# otra forma de mostrar seria
+
+for indice,i in enumerate(lista):# ESTE CICLO ES PARA VER EL FORMATO DE UNA TABLA DE MULTIPLICAR
+    print(f'{numero} x {i} = {lista[indice]}')
+
+
