@@ -134,6 +134,72 @@ listaNombres('Marcos','Daniel','Romina','Pepe','Marcela','Carlos')#y agregamos m
 #agregando los elementos como argumentos
 
 
+#ARGUMENTOS ,VARIABLES LLAVE VALOR
+#CUANDO HABLAMOS DE LLAVE VALOR ESTAMOS HABLANDO DE UN DICCIONARIO
+# VAMOS A DEFINIR OTRA FUNCION, ESTA FUNCION ES PARA QUE PUEDA MANEJAR UNA LISTA DE TERMINOS DEF Y COMO IDENTIFICADOR LE PONDREMOS EL NOMBRE LISTATERMINOS
+#Dentro de los parentesis vamos a poner un parametro,este parametro va a ser para que podamos recibir un diccionario completo,que se usa,se usa el(**terminos)tbn (**kwargs),pero podemos usar cualquier nombre
+#aqui usaremos (**terminos)
+# normalmente la documentacion de python se utiliza el nombre de kwargs para recibir lo que es llave valor en forma de argumentos
+# al agregar mas elementos como(nombre,*nombres,**terminos)/ en nombre estamos pasando argumentos fijos/en *nombres estamos pasando en esta variable apunta a una tupla/y **terminos es para diccionarios
+def listaTerminos(**terminos):#lo mas utilizado es **kwags para recibir los argumentos
+    for llave,valor in terminos.items(): # esto es justamente para recorrer diccionarios:/kwargs significa :key word argument
+        print(f"{llave} : {valor}")
+
+# la funcion esta andando perfecto recibe muy bien los argumentos,los conbierte en parametros,hace la operacion nos esta mostrando el diccionario
+#LAS LLAVES NO LLEVAN COMILLAS Y EL VALOR QAE SE LE INGRESE A ESTE DICCIONARIO PUEDE SER CUALQUIER TIPO DE DATO
+listaTerminos() # vamos hacer distintas comprobaciones, la primera que pasa si se lo pasmos vacio,no hay cambio en la ejecucion,porque no ha recibido ningun argumento,no ha recibido ningun parametro
+listaTerminos(IDE="Integrated Develoment Enviroment",PK="Primary key")# hemos gregado un valor tanto para lo que seria (la llaveIDE como lo que seria (el valor Integr..)la llave no hace falta usar comillas
+listaTerminos(nombre="Leonel Messi") # puede recibir un tipo de dato en lo que es el valor(10)pero no en la llave cuidado,se pone ej nombre y asi no hay problema, si ingresamos un numero no lo acepta
+# si tenemos que pasar varios parametros a la funcion, lo primero es pasar los parametros de manera independiente
+
+# DISTINTOS TIPOS DE DATOS COMO ARGUMENTOS ,VAMOS A DEFINIR UNA FUNCION QUE RECIBA UNA LISTA Y QUE ACCEDA A SUS ELEMENTOS, /NO VAMOS A UTILIZAR LO QUE SON ELEMENTOS VARIABLES
+#VAMOS A UTILIZAR UNA LISTA PARA RECIBIR LO QUE SON LOS ELEMENTOS, CUANDO SABEMOS QUE EL PARAMETRO SERA UNA LISTA DE ELEMENTOS, ENTONCES DE MANERA INTERNA EN LA FUNCION PODEMOS TRATARLA COMO TAL,COMO UNA LISTA
+#VAMOS A DEFINIR LO QUE ES UNA FUNCION
+
+def desplegarNombres(nombres):
+    for nombre in nombres:     #vamos a poner un ciclo for, es justamente que lo vamos a tratar como una lista,usamos la variable nombre,salimos fuera del ciclo y vamos a crear nuestra lista
+        print(nombre)
+nombres2 = ['Tito','Pedro','carlos']     #esta es nuestra lista, ahora llamamos a la funcion
+desplegarNombres(nombres2)# ahora nosotros vamos a enviarle de diferente manera, vamos a llamar a la de nuevo pero no de esta lista
+desplegarNombres('carla')# aqui lo presenta como una cadena con cada uno de los elementos,recorriendo cada uno de los elementos de forma vertical
+#desplegarNombres(10,11) # que pasa si volvemos a llamar a esta funcion y le añadimos un numero entero, nos dara un error,nos dice que el objeto es entero y no es iterable
+#para que corran hay que convertirlos vamos a volver a llamar a nuestra funcion si ponemos doble parentesis se vuelve una tupla iterable,los parentesis corresponden a las tuplas
+# si queremos que quede una tupla con un solo elemento ej((10,))doble parentesis, el numero y la coma/ si quitamos la  coma habra un conflicto en la ejecucion no lo acepta como una tupla cuando hay un solo elementoo
+desplegarNombres((10,11)) #para poder recorrer los numeros tuvimos que convertirlos en tupla,pero si ponemos desplegar nombres que mas podemos hacer...
+desplegarNombres([22,55])# aqui la convertimos en una lista a nuestra funcion, para recorrer una lista
+ # FUNCIONES RECURSIVAS
+ # UNA FUNCION RECURSIVA SE MANDA A LLAMAR A SI MISMA, PARA COMPLETAR UNA CIERTA TAREA ,EN ESTE CASO TIENE DOS FACETAS LO QUE ES LA RECURSIVIDAD, LA FUNCION ES QUE NECESITA UN CASO BASE  Y UN CASO RECURSIVO
+# ESTOS DOS CASOS SON LOS QUE HAY QUE TENER PRESENTE PARA QUE ESTE CASO SE CUMPLA Y NO SEA INFINITO
+# VAMOS HACER UNA FUNCION PARA DETERMINAR EL FACTORIAL DE UN NUMERO
+
+  # YA TENEMOS EL ELEMENTO POR EL CUAL VAMOS A RECIBIR EL NUMERO, AQUI EL PARAMETRO SE LLAMA NUMERO Y NOS ENVIA COMO UN ARGUMENTO LO RECIBIMOS COMO UN PARAMETRO ES ALLI QUE NUESTRA FUNCION
+# TIENE QUE ENCONTRAR EL RESULTADO DEL FACTORIAL DE ESE NUMERO PONEMOS DENTRO UNA ESTRUCTURA IF
+
+def factorial(numero):
+    if numero == 1:  # con una estructura if le vamos a decir que si numero es igual a 1 entonces return 1 / Esto seria nuestro caso base./para el caso recursivo hnecesitamos un else
+        return 1
+    else:
+        return numero * factorial(numero-1)  # Dentro del else vamos a decirle que return va a recibie el numero multiplicado factorial(numero en este caso -1)/Este es el caso RECURSIVO
+numeroFactorial = int(input('Digite el numero para calcular el factorial:'))
+
+
+  # lo vamos hacer de forma manual ,vamos a reutilizar la variable resultado
+resultado = factorial(numeroFactorial)  # lo hacemos en codigo duro
+print(f'El factorial del numero {numeroFactorial} es:  {resultado}') # tarea que el usuario ingrese el numero para calcular el factorial
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

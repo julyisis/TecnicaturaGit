@@ -1,0 +1,1 @@
+# EJERCICIO 02: FUNCION CON * args
