@@ -57,5 +57,17 @@ public class Persona {
   public void setElimidado(boolean eliminado){
       this.eliminado = eliminado;
   }
-    
-}
+  /*
+  VAMOS A USAR EL METODO TO STRING: Este metodo permite inscribir el estado del objeto, el objeto que estemos creando 
+  el to String va a permitir imprimir el estado del objeto en cualkquier momento , nos permite imprimir los valores de 
+  cada tributo que agreguemos al metodoel objetivo de que cuando hagamos una impresion de una variable que apunta aun objeto 
+  en este ejercicio es persona1 y la hemos convertido a un objeto, nosd permite imprimir los valores de cada atributo que agreguemos al metodo 
+  y el onjeto es que cuando hagamos la impresion de una variable que apunta a un objeto se vea toda la informacion
+  incluyendo cada uno de los valores de cada atributo de este objeto 
+  */
+    public String toString(){//para poder acceder y ver todo lo que es la informacion de nuestros atributos debe ser de tipo public y el tipo String}
+        return "Persona[ nombre: "+this.nombre+
+               ", sueldo: "+this.sueldo+
+                ", eliminado: "+this.eliminado+" ]";        
+    }
+}    
