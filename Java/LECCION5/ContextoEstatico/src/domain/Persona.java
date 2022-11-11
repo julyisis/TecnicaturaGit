@@ -61,10 +61,12 @@ public class Persona {
     aqui lo estamos sobre escribiendo este metodo que recibimos por herencia de la clase 
     object,lo estamos sobre escribiendo para mostrarlo como se ve en la linea 65
     */
+
     @Override
     public String toString() {
         return "Persona{" + "idPersona=" + idPersona + ", nombre=" + nombre + '}';
     }
+ 
     
-    
+   
 }
