@@ -14,6 +14,7 @@ podemos encapsularlo nuestros atributos de manera privada, en privateya no es pr
 a nadie de lo que es la clase cliente 
 */
 public class Cliente extends Persona{
+    //ATRIBUTOS
     private int idCliente;
     private Date fechaRegistro;//Importar la clase Date 
     private boolean vip; //Very important person
@@ -22,7 +23,7 @@ public class Cliente extends Persona{
     //Constructor
     public Cliente(Date fechaRegistro,boolean Vip, String nombre,
             char genero, int edad,String direccion){
-        super(nombre, genero,edad,direccion); //va en primer lugar de la clase hija  contructor de la clase Padre object desde alli viene atravezde el podemos acceder a los datos de la clase PadrePersona
+        super(nombre, genero,edad,direccion); //va en primer lugar de la clase hija  contructor de la clase Padre object desde alli viene atravez de el podemos acceder a los datos de la clase PadrePersona
         this.idCliente = ++Cliente.contadorCliente;//estamos llamando a los argumentos de la clase Padre para utilizarlos 
         this.fechaRegistro = fechaRegistro;
         this.vip = vip;

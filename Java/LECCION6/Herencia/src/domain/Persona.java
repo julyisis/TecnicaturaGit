@@ -1,5 +1,5 @@
 /*
-cuuando vamos a  poner un atributo de manera privada esttto oeses paraa el capulamiento
+cuando vamos a  poner un atributo de manera privada esto oeses para el capulamiento
 todo lo que es private no se hereda a las clases hijas si queremos que las clases hijas puedan accedeer entonces se utiliza el modificador 
 protected, es posible no indicar nada pero recuerden que el atributo al no indicarle nada ningun modificador de acceso va a ser defoult o backage
 solo se puede acceder dentro de las clases que esten dentro del mismo paquete 
@@ -18,15 +18,16 @@ public class Persona {
     protected String direccion;
     //CREAMOS UN "CONSTRUCTOR"
    // el primero es vacio para crear objetos sin necesidad de inicializar los atributos de la clase 
-    public Persona(){//CONSTRUCTOR 1 VACIO
+    //CONSTRUCTOR VACIO:ESTE ES PARA CREAR OBJETOS SIN NECESIDAD DE INICIALIZAR LOS ATRIBUTOS DE LA CLASE
+    public Persona(){//CONSTRUCTOR1 VACIO
         
     }
-    public Persona(String nombre){ //CONTRUCTOR 2
+    public Persona(String nombre){ //CONTRUCTOR 2 SOLO PARA NOMBRE 
         this.nombre = nombre;
         
     }
 
-    public Persona(String nombre, char genero, int edad, String direccion) { //constructor 3
+    public Persona(String nombre, char genero, int edad, String direccion) { //constructor3 ES PARA LOS 4 ATRIBUTOS 
         this.nombre = nombre;
         this.genero = genero;
         this.edad = edad;
@@ -67,8 +68,19 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "Persona{" + "nombre=" + nombre + ", genero=" + genero + ", edad=" + edad + ", direccion=" + direccion + '}';
+        StringBuilder sb = new StringBuilder();
+        sb.append("Persona{nombre=").append(nombre);
+        sb.append(", genero=").append(genero);
+        sb.append(", edad=").append(edad);
+        sb.append(", direccion=").append(direccion);
+        sb.append(", ").append(super.toString());
+        sb.append('}');
+        return sb.toString();
     }
+    
+
+   
+    
     
     
 }
