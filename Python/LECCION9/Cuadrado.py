@@ -1,4 +1,4 @@
-from FiguraGeometrica import FiguraGeometrica
+from FiguraGeometrica import FiguraGeometrica      #clase Hija
 from Color import Color
 
 
@@ -14,9 +14,9 @@ class Cuadrado(FiguraGeometrica, Color):
          FiguraGeometrica.__init__(self, lado, lado) # Aqui estamos inicializando la clase FiguraGeometrica
          Color.__init__(self, color)# en este estamos inicializando la clase color , el atributo color
 
-       # vamos a crear un metodo aqui en la clase Cuadrado este va a multiplicar lado alto * alto ancho
     def calcular_area(self):
-           return self.alto * self.ancho
+        return self.alto * self.ancho
+
 
 
 

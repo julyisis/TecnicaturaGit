@@ -1,4 +1,4 @@
-class Color:
+class Color:# clase Padre
     def __init__(self, color):
         self._color = color
 
