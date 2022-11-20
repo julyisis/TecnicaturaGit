@@ -25,7 +25,7 @@ console.log(typeof objeto);
 
 //Tipo de dato boolean
 var bandera = true;
-console.lo(bandera);
+console.log(bandera);
 
 //Tipo de dato funcion 
 function miFuncion(){}
