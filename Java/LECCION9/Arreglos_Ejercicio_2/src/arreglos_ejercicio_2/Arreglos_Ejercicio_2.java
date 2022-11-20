@@ -18,9 +18,9 @@ public class Arreglos_Ejercicio_2 {
         
         System.out.println("\nImprimir los elementos del arreglo");
         for(int i=4;i>=0;i--){
-            System.out.println(" "+numeros[i]);
+            System.out.print(" "+numeros[i]);
         }    
-        System.out.println("\n");
+        System.out.print("\n");
     }
     
 }
